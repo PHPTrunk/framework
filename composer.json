@@ -1,0 +1,47 @@
+{
+    "name": "phptrunk/framework",
+    "description": "A PHP framework for building web applications.",
+    "keywords": ["PHPTrunk", "PHP", "Backend", "framework"],
+    "license": "MIT",
+    "homepage": "https://github.com/PHPTrunk",
+    "support": {
+        "source": "https://github.com/PHPTrunk/framework",
+        "issues": "https://github.com/PHPTrunk/framework/issues"
+    },
+    "authors": [
+        {
+            "name": "Mohamed Marzouk",
+            "email": "109-marzouk@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^8.1.4"
+    },
+    "replace": {},
+    "require-dev": {},
+    "provide": {},
+    "conflict": {},
+    "autoload": {
+        "files": [
+            "src/Support/helpers.php"
+        ],
+        "psr-4": {
+            "PHPTrunk\\": "src"
+        }
+    },
+    "autoload-dev": {},
+    "extra": {
+        "branch-alias": {
+            "dev": "1.0-dev"
+        }
+    },
+    "suggest": {},
+    "config": {
+        "sort-packages": true,
+        "allow-plugins": {
+            "composer/package-versions-deprecated": true
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
